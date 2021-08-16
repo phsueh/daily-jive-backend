@@ -1,19 +1,7 @@
 # Daily Jive Backend
+This repo is the Sinatra backend for the app Daily Jive. See frontend features [here].(https://github.com/phsueh/daily-jive-frontend)
 
-## Requirements
-
-1. Access a Sqlite3 database using Active Record.
-2. You should have a minimum of two models with a one to many relationship.
-3. You should build out a simple **React** frontend that incorporates at least
-   one GET request and one non-GET request (POST, PATCH, DELETE).
-      Example: A user should be able to build out a todo list. 
-      A user should be able to create a new task, see all the tasks, 
-      update a specific task and delete a task. Tasks can be grouped into many
-      categories, so a task has many categories and categories have many tasks.
-4. Use good OO design patterns. You should have separate classes for your
-   models and incorporate instance and class method.
-
-## Getting Started
+## Installation and Setup
 
 Clone down this Sinatra repository.
 
@@ -35,7 +23,7 @@ shotgun
 > automatically reload your Sinatra server. You may still need to refresh your
 > browser to see changes.
 
-Your backend and your frontend should be in two different repositories. Create a
+<!-- Your backend and your frontend should be in two different repositories. Create a
 new repository in a separate folder with a React app for your frontend using
 [create-react-app][].
 
@@ -50,4 +38,4 @@ fetch("http://localhost:9393/test")
   .then(console.log);
 ```
 
-[create-react-app]: https://create-react-app.dev/docs/getting-started
+[create-react-app]: https://create-react-app.dev/docs/getting-started -->
