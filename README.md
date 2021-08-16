@@ -1,5 +1,5 @@
 # Daily Jive Backend
-This repo is the Sinatra backend for the app Daily Jive. See frontend features [here] (https://github.com/phsueh/daily-jive-frontend).
+This repo is the Sinatra backend for the app Daily Jive. See frontend features [here](https://github.com/phsueh/daily-jive-frontend).
 
 ## Installation and Setup
 
