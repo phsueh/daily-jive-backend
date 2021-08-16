@@ -15,16 +15,31 @@ sporty_spice = User.create(username: "Melanie Chisholm", password: "enter")
 posh_spice = User.create(username: "Victoria Addams", password: "enter")
 
 puts "Creating Jives..."
-7.times do
+
+pics_array = [
+    "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/73/10/c0.jpg", 
+    "https://media.bizj.us/view/img/12025273/gettyimages-584791924*1600xx5571-3140-0-85.jpg",
+    "https://www.minneapolis.org/imager/s3_amazonaws_com/meet-minneapolis/craft/cms/MM-homepage-hero_fcdeae811706337f6a402f2a1c04142a.jpg", 
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb_9fiSwApHZyPPInk40iMiCgQoGs88ZFYBQ&usqp=CAU",  
+    "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/71/39/f1.jpg",
+    "https://rccl-h.assetsadobe.com/is/image/content/dam/royal/content/destinations/hawaii/amazing-hawaii-beach-with-green-mountains.jpg?$750x667$", 
+    "https://images-na.ssl-images-amazon.com/images/I/61VmYAGCGFL._AC_SX522_.jpg"
+]
+
+$i = 0
+while $i < 6  do
     name = "sup"
     post_type = "greeting"
     post = "this will be a sample post"
-    pics = "https://media.wired.com/photos/5954a1b05578bd7594c46869/master/w_2560%2Cc_limit/reddit-alien-red-st.jpg"
-    url =  "https://media.wired.com/photos/5954a1b05578bd7594c46869/master/w_2560%2Cc_limit/reddit-alien-red-st.jpg"
+    pics = pics_array[$i]
+    url =  "your website link here"
     user_id = User.ids.sample
 
     Jive.create(name: name, post_type: post_type, post: post, pics: pics, url: url, user_id: user_id)
+    $i +=1
 end
+
+
 
 puts "Creating Likes..."
 7.times do

@@ -37,7 +37,7 @@ class ApplicationController < Sinatra::Base
     if user.nil?
       {error: "Incorrect username or password"}.to_json
     else
-      user.to_json(include: :jives)
+      user.to_json(include: :jive)
     end
     #   name: params[:name], type: params[:type], post: params[:post], pics: params[:pics], url: params[:url], likes: params[:likes], dislikes: params[:dislikes]
   end
