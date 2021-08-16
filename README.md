@@ -1,4 +1,4 @@
-# Daily Jive
+# Daily Jive Backend
 
 ## Requirements
 
