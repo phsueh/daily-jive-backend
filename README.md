@@ -5,11 +5,7 @@ This repo is the Sinatra backend for the app Daily Jive. See frontend features [
 
 Clone down this Sinatra repository.
 
-First, `cd` into the the cloned repo and run `bundle install` in your backend
-folder to install your gems.
-
-The `app/controllers/application_controller.rb` is going to be the place where 
-you write your controller methods to handle any incoming request to your Sinatra API.
+To install the necessary gems, run `bundle install` in the directory you stored the cloned repository. 
 
 **Start your server with:**
 
